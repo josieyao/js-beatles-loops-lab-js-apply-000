@@ -72,7 +72,7 @@ function johnLennonFacts(factsArray) {
   while (arrayLength > 0) {
  		newFactsArray.push(factsArray[i] + "!!!");
  		i++;
- 		arrayLength--;
+ 		arrayLength.splice(0,1);
  	}
  	return newFactsArray;
  }
