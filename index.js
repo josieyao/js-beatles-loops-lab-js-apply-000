@@ -96,7 +96,7 @@ function iLoveTheBeatles(num) {
   var newestArray = [];
   do {
     newestArray.push("I love the Beatles!");
-        num++;
+    num++;
   }
   while (num < 15);
 return newestArray;
